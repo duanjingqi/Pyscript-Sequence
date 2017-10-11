@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # Usage: drevcomp.py seq1.fa seq2.fa ... seqN.fa
 # create by Jingqi
-# It takes >=1 fasta files, concatenates the sequence lines under a specific head and does reverse/complement on the sequence. 
+# It takes >=1 fasta files of >=1 fasta entries, concatenates the sequence lines under a specific head and does reverse/complement on the sequence. 
 # It outputs the r/c sequences in a fasta file with the suffix .rcfa under the same directory. 
 # The input file must be in fasta format.
 
